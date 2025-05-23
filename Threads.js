@@ -1,5 +1,6 @@
 function factorial()
 {
+    console.log(`\nProcess name : Factorial`);
     var fact = 1;
     for(var i=1;i<=10;i++)
     {
@@ -10,6 +11,7 @@ function factorial()
 
 function fibnacci_series()
 {
+    console.log(`\nProcess name :fibonacci series`);
     var first=0,second=1;
     console.log(first);
     console.log(second);
