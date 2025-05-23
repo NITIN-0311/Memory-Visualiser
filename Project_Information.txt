@@ -1,0 +1,21 @@
+Nodejs 
+    Runtime evironment for javascript
+    Used to create create CLI tool
+
+Node package manager    
+    Used to install and manage javacript packages for this project
+    Helps to run script code
+
+    commands used in this project:
+        npm install -y 
+        npm link    
+
+package.json
+    Created by nodejs
+    contains the metadata of the project
+    Manages dependecies,scripts,version etc..
+
+Npm commands used for this project
+    npm i -y
+    npm start
+    npm run <filename>
