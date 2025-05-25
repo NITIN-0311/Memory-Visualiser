@@ -6,6 +6,9 @@
     used yargs module to read cli input from user
     yargs.command(<command object>,<handler function>) 
 */
+
+const {Worker}= require("worker_threads");
+
 const yargs=require('yargs');
 const threads=require('./Threads');
 console.log("Memory visualiser");
@@ -13,8 +16,9 @@ console.log("Memory visualiser");
 function start_visualiser()
 {
     console.log("Two threads are executing concurrently");
-    threads.factorial();
-    threads.fibnacci_series();
+    const worker=new Worker('./Mainthread');
+    //threads.factorial();
+    //threads.fibnacci_series();
 }
 
 function view_menu()
