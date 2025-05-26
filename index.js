@@ -19,6 +19,7 @@ function start_visualiser()
     const worker=new Worker('./Mainthread');
     //threads.factorial();
     //threads.fibnacci_series();
+    //kickstart
 }
 
 function view_menu()
